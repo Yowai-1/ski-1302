@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     public int Score { get { return score; } set {score = value;} }
 
     [SerializeField]
-    private int hp;
+    private int hp = 100;
     public int HP {  get { return hp; } set {hp = value;} }
 
 
