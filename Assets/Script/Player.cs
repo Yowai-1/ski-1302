@@ -10,6 +10,16 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private float xInput;
+
+    [SerializeField]
+    private int score;
+    public int Score { get { return score; } set {score = value;} }
+
+    [SerializeField]
+    private int hp;
+    public int HP {  get { return hp; } set {hp = value;} }
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
